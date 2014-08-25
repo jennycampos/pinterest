@@ -18,7 +18,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0' 
-gem 'devise', '~> 3.1.0.rc2'         
+gem 'devise', '~> 3.1.0.rc2'
+gem 'paperclip', github: 'thoughtbot/paperclip'        
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
